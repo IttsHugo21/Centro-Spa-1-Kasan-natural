@@ -58,15 +58,14 @@
             max-width: 900px;
         }
 
-        /* Map Container Glow */
-        .map-shadow {
-            box-shadow: 0 10px 30px -10px rgba(0,0,0,0.2);
+        .img-container-shadow {
+            box-shadow: 0 20px 50px -15px rgba(0,0,0,0.3);
         }
     </style>
 </head>
 <body class="bg-white">
 
-    <!-- Header / Navigation -->
+    <!-- Header / Navegación -->
     <nav class="fixed w-full z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-gray-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
@@ -78,7 +77,7 @@
                         <a href="#inicio" class="hover:text-gold px-3 py-2 transition-colors">Inicio</a>
                         <a href="#servicios" class="hover:text-gold px-3 py-2 transition-colors">Servicios</a>
                         <a href="#nosotros" class="hover:text-gold px-3 py-2 transition-colors">Nosotros</a>
-                        <a href="#contacto" class="hover:text-gold px-3 py-2 transition-colors">Contacto</a>
+                        <a href="#contacto" class="hover:text-gold px-3 py-2 transition-colors font-bold text-gold">Ubicación</a>
                         <a href="tel:+34625170617" class="bg-primary text-white px-5 py-2 rounded-full text-sm font-bold tracking-wider hover:bg-opacity-90 transition-all">RESERVAR CITA</a>
                     </div>
                 </div>
@@ -91,7 +90,7 @@
                 </div>
             </div>
         </div>
-        <!-- Mobile menu -->
+        <!-- Menú móvil -->
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 p-4 space-y-2">
             <a href="#inicio" class="block px-3 py-2 rounded-md hover:bg-gray-50">Inicio</a>
             <a href="#servicios" class="block px-3 py-2 rounded-md hover:bg-gray-50">Servicios</a>
@@ -104,7 +103,7 @@
     <section id="inicio" class="relative h-screen flex items-center justify-center overflow-hidden">
         <div class="absolute inset-0 z-0">
             <div class="absolute inset-0 bg-black/40 z-10"></div>
-            <img src="https://images.unsplash.com/photo-1544161515-436cefb65794?q=80&w=2070&auto=format&fit=crop" alt="Ambiente de Spa Relajante" class="w-full h-full object-cover">
+            <img src="https://images.unsplash.com/photo-1544161515-436cefb65794?q=80&w=2070&auto=format&fit=crop" alt="[Ambiente de Spa Relajante]" class="w-full h-full object-cover">
         </div>
         <div class="relative z-20 text-center px-4 max-w-4xl">
             <h1 class="text-5xl md:text-7xl text-white mb-6 animate-fade-in">Tu refugio de paz en Zaragoza</h1>
@@ -116,7 +115,7 @@
         </div>
     </section>
 
-    <!-- Brief Info -->
+    <!-- Información Breve -->
     <section class="py-12 bg-soft-green border-b border-gray-200">
         <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
@@ -134,7 +133,7 @@
         </div>
     </section>
 
-    <!-- Services Section -->
+    <!-- Sección Servicios -->
     <section id="servicios" class="py-24">
         <div class="max-w-7xl mx-auto px-4">
             <div class="text-center mb-16">
@@ -144,10 +143,10 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Service 1 -->
+                <!-- Servicio 1 -->
                 <div class="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border border-gray-100">
                     <div class="h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop" alt="Masaje Relajante" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=2070&auto=format&fit=crop" alt="[Masaje Relajante]" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-serif mb-3">Masaje Relajante</h3>
@@ -155,10 +154,10 @@
                         <span class="text-gold font-bold">Desde 35€</span>
                     </div>
                 </div>
-                <!-- Service 2 -->
+                <!-- Servicio 2 -->
                 <div class="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border border-gray-100">
                     <div class="h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop" alt="Tratamiento Facial" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?q=80&w=2070&auto=format&fit=crop" alt="[Tratamiento Facial]" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-serif mb-3">Estética y Facial</h3>
@@ -166,10 +165,10 @@
                         <span class="text-gold font-bold">Desde 45€</span>
                     </div>
                 </div>
-                <!-- Service 3 -->
+                <!-- Servicio 3 -->
                 <div class="group bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all border border-gray-100">
                     <div class="h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=2070&auto=format&fit=crop" alt="Masaje Deportivo" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?q=80&w=2070&auto=format&fit=crop" alt="[Masaje Deportivo]" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
                     </div>
                     <div class="p-8">
                         <h3 class="text-2xl font-serif mb-3">Masaje Deportivo</h3>
@@ -181,11 +180,11 @@
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- Sección Sobre Nosotros -->
     <section id="nosotros" class="py-24 bg-soft-green">
         <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-16">
             <div class="w-full md:w-1/2">
-                <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?q=80&w=2070&auto=format&fit=crop" alt="Sobre Kasan Natural" class="rounded-2xl shadow-2xl">
+                <img src="https://images.unsplash.com/photo-1600334089648-b0d9d3028eb2?q=80&w=2070&auto=format&fit=crop" alt="[Sobre Kasan Natural]" class="rounded-2xl shadow-2xl">
             </div>
             <div class="w-full md:w-1/2">
                 <h2 class="text-4xl font-serif mb-6">Bienestar con Esencia Natural</h2>
@@ -213,15 +212,15 @@
         </div>
     </section>
 
-    <!-- Contact & Map Section -->
+    <!-- Sección Contacto - Imagen de Spa reemplaza al Mapa -->
     <section id="contacto" class="py-24">
         <div class="max-w-7xl mx-auto px-4">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <!-- Contact Details -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <!-- Detalles de Contacto -->
                 <div class="space-y-10">
                     <div>
-                        <h2 class="text-4xl font-serif mb-4">Ven a visitarnos</h2>
-                        <p class="text-gray-600 text-lg">Estamos en el Centro Comercial Kasan, listos para brindarte la mejor atención.</p>
+                        <h2 class="text-4xl font-serif mb-4 text-primary">Nuestra Ubicación</h2>
+                        <p class="text-gray-600 text-lg">Visítanos en el Centro Comercial Kasan. Disfruta de un entorno diseñado para tu desconexión total.</p>
                     </div>
                     
                     <div class="space-y-8">
@@ -240,9 +239,9 @@
                                 <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
                             </div>
                             <div>
-                                <h4 class="font-bold text-xl mb-1">Citas y Consultas</h4>
-                                <a href="tel:+34625170617" class="text-2xl text-gold font-bold hover:underline">625 17 06 17</a>
-                                <p class="text-gray-500 text-sm mt-1">Atendemos WhatsApp</p>
+                                <h4 class="font-bold text-xl mb-1">Citas y WhatsApp</h4>
+                                <a href="tel:+34625170617" class="text-3xl text-gold font-bold hover:underline">625 17 06 17</a>
+                                <p class="text-gray-500 text-sm mt-1">Recomendamos reservar con antelación</p>
                             </div>
                         </div>
 
@@ -252,31 +251,25 @@
                             </div>
                             <div>
                                 <h4 class="font-bold text-xl mb-1">Horarios</h4>
-                                <p class="text-gray-600">Lunes - Sábado: Según cita previa</p>
-                                <p class="text-gray-600">Domingos: Cerrado</p>
+                                <p class="text-gray-600">Lunes - Sábado: Bajo cita previa</p>
                             </div>
                         </div>
                     </div>
 
-                    <a href="https://www.google.com/maps/dir//Kasan+Natural+7,+C.+de+Valero+Juli%C3%A1n+Ripol+Urbano,+7,+Bajo,+50018+Zaragoza/@41.6749877,-0.8872689,17z/" target="_blank" class="inline-flex items-center justify-center btn-primary px-8 py-4 rounded-xl font-bold w-full sm:w-auto shadow-lg">
+                    <a href="https://www.google.com/maps/dir//Kasan+Natural+7,+C.+de+Valero+Juli%C3%A1n+Ripol+Urbano,+7,+Bajo,+50018+Zaragoza" target="_blank" class="inline-flex items-center justify-center btn-primary px-8 py-4 rounded-xl font-bold w-full sm:w-auto shadow-lg">
                         <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
-                        OBTENER RUTA EN MAPA
+                        ¿CÓMO LLEGAR? (GOOGLE MAPS)
                     </a>
                 </div>
 
-                <!-- Visual Interactive Map -->
-                <div class="relative group">
-                    <div class="absolute -inset-2 bg-gradient-to-r from-gold/20 to-primary/20 rounded-[2.5rem] blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-                    <div class="relative bg-white p-2 rounded-[2rem] map-shadow overflow-hidden h-[500px]">
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m13!1m1!1z0xd591350a4f5f4b7:0xf8574768341662c1!2zQy4gZGUgVmFsZXJvIEp1bGnDoW4gUmlwb2wgVXJiYW5vLCA3LCA1MDAxOCBaYXJhZ296YQ!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd591350a4f5f4b7%3A0xf8574768341662c1!2sKasan%20Natural%207!5e0!3m2!1ses!2ses!4v1711290000000!5m2!1ses!2ses" 
-                            width="100%" 
-                            height="100%" 
-                            style="border:0; filter: grayscale(0.2) contrast(1.1);" 
-                            allowfullscreen="" 
-                            loading="lazy" 
-                            referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
+                <!-- Imagen Profesional de Spa reemplazando al mapa -->
+                <div class="relative">
+                    <div class="absolute -inset-4 bg-primary/10 rounded-[2.5rem] rotate-2"></div>
+                    <div class="relative rounded-[2rem] overflow-hidden img-container-shadow h-[550px]">
+                        <img src="https://img.freepik.com/foto-gratis/mujer-joven-masaje-facial-relajante-salon-spa_176420-7546.jpg" alt="[Piedras calientes y aceites esenciales en Spa]" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent p-8">
+                            <p class="text-white text-lg font-serif italic">"El descanso no es un lujo, es una necesidad."</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -301,7 +294,7 @@
                     </ul>
                 </div>
                 <div>
-                    <h4 class="font-bold mb-6 uppercase tracking-wider text-sm">Legal</h4>
+                    <h4 class="font-bold mb-6 uppercase tracking-wider text-sm text-gold">Legal</h4>
                     <ul class="space-y-4 text-white/70">
                         <li><a href="javascript:void(0)" onclick="openModal('modal-aviso-legal')" class="hover:text-white transition-colors">Aviso Legal</a></li>
                         <li><a href="javascript:void(0)" onclick="openModal('modal-privacidad')" class="hover:text-white transition-colors">Política de Privacidad</a></li>
@@ -315,7 +308,7 @@
         </div>
     </footer>
 
-    <!-- MODALS FOR LEGAL TEXTS -->
+    <!-- MODALES LEGALES -->
     
     <!-- Aviso Legal -->
     <div id="modal-aviso-legal" class="modal">
@@ -323,15 +316,9 @@
             <span class="float-right text-3xl cursor-pointer" onclick="closeModal('modal-aviso-legal')">&times;</span>
             <h2 class="text-3xl font-serif mb-6">Aviso Legal</h2>
             <h3>1. Datos Identificativos</h3>
-            <p>En cumplimiento con el deber de información recogido en artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico, a continuación se reflejan los siguientes datos: El titular de esta web es <strong>Kasan Natural 7</strong>, con domicilio en C. de Valero Julián Ripol Urbano, 7, Bajo, 50018 Zaragoza. NIF: B-XXXXXXXX (sustituir por NIF real).</p>
-            <h3>2. Usuarios</h3>
-            <p>El acceso y/o uso de este portal de Kasan Natural 7 atribuye la condición de USUARIO, que acepta, desde dicho acceso y/o uso, las Condiciones Generales de Uso aquí reflejadas.</p>
-            <h3>3. Uso del Portal</h3>
-            <p>Este sitio web proporciona el acceso a multitud de informaciones, servicios o datos en Internet pertenecientes a Kasan Natural 7. El USUARIO asume la responsabilidad del uso del portal.</p>
-            <h3>4. Protección de Datos</h3>
-            <p>Kasan Natural 7 cumple con las directrices del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 (RGPD) y demás normativa vigente en cada momento, y vela por garantizar un correcto uso y tratamiento de los datos personales del usuario.</p>
-            <h3>5. Propiedad Intelectual e Industrial</h3>
-            <p>Kasan Natural 7 por sí o como cesionaria, es titular de todos los derechos de propiedad intelectual e industrial de su página web, así como de los elementos contenidos en la misma.</p>
+            <p>En cumplimiento con el deber de información recogido en artículo 10 de la Ley 34/2002, de 11 de julio, el titular de esta web es <strong>Kasan Natural 7</strong>, con domicilio en C. de Valero Julián Ripol Urbano, 7, Bajo, 50018 Zaragoza.</p>
+            <h3>2. Condiciones de Uso</h3>
+            <p>El acceso y uso de este portal atribuye la condición de USUARIO, que acepta las Condiciones Generales de Uso aquí reflejadas.</p>
             <button class="btn-primary px-6 py-2 rounded mt-6" onclick="closeModal('modal-aviso-legal')">Cerrar</button>
         </div>
     </div>
@@ -341,17 +328,11 @@
         <div class="modal-content legal-content">
             <span class="float-right text-3xl cursor-pointer" onclick="closeModal('modal-privacidad')">&times;</span>
             <h2 class="text-3xl font-serif mb-6">Política de Privacidad</h2>
-            <p>De acuerdo con lo dispuesto en el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD), informamos:</p>
-            <h3>Responsable del Tratamiento</h3>
-            <p>Kasan Natural 7. Dirección: C. de Valero Julián Ripol Urbano, 7, Bajo, 50018 Zaragoza.</p>
+            <p>De acuerdo con el Reglamento (UE) 2016/679 (RGPD), informamos:</p>
             <h3>Finalidad</h3>
-            <p>Los datos suministrados por el usuario a través de los formularios o llamadas telefónicas serán utilizados para la gestión de citas, consultas y prestación de los servicios de masaje y estética solicitados.</p>
-            <h3>Legitimación</h3>
-            <p>La base legal para el tratamiento de sus datos es el consentimiento del usuario al contactar con nosotros y la ejecución del contrato de prestación de servicios.</p>
-            <h3>Destinatarios</h3>
-            <p>No se cederán datos a terceros, salvo obligación legal.</p>
+            <p>Los datos facilitados serán utilizados exclusivamente para la gestión de citas y comunicación directa con el cliente.</p>
             <h3>Derechos</h3>
-            <p>Cualquier persona tiene derecho a obtener confirmación sobre si en Kasan Natural 7 estamos tratando datos personales que les conciernan o no. Las personas interesadas tienen derecho a acceder a sus datos personales, así como a solicitar la rectificación de los datos inexactos o, en su caso, solicitar su supresión.</p>
+            <p>Usted tiene derecho a acceder, rectificar o suprimir sus datos personales en cualquier momento contactando con nosotros.</p>
             <button class="btn-primary px-6 py-2 rounded mt-6" onclick="closeModal('modal-privacidad')">Cerrar</button>
         </div>
     </div>
@@ -361,33 +342,23 @@
         <div class="modal-content legal-content">
             <span class="float-right text-3xl cursor-pointer" onclick="closeModal('modal-cookies')">&times;</span>
             <h2 class="text-3xl font-serif mb-6">Política de Cookies</h2>
-            <p>Una cookie es un pequeño fichero de texto que se almacena en su navegador cuando visita casi cualquier página web. Su utilidad es que la web sea capaz de recordar su visita cuando vuelva a navegar por esa página.</p>
-            <h3>Cookies utilizadas en este sitio web</h3>
-            <p>Este sitio web utiliza las siguientes cookies propias:</p>
-            <ul class="list-disc ml-6 mb-4">
-                <li>Cookies técnicas de sesión para el correcto funcionamiento del portal.</li>
-            </ul>
-            <p>Este sitio web utiliza las siguientes cookies de terceros:</p>
-            <ul class="list-disc ml-6 mb-4">
-                <li>Google Maps/Analytics: Para mostrar la ubicación y elaborar estadísticas de visitas anónimas.</li>
-            </ul>
-            <h3>Desactivación o eliminación de cookies</h3>
-            <p>En cualquier momento podrá ejercer su derecho de desactivación o eliminación de cookies de este sitio web a través de la configuración de su navegador.</p>
+            <p>Utilizamos cookies propias para el funcionamiento técnico de la web y garantizar su seguridad.</p>
+            <h3>Gestión de Cookies</h3>
+            <p>Puede desactivar las cookies en cualquier momento a través de la configuración de su navegador, aunque esto puede afectar la funcionalidad del sitio.</p>
             <button class="btn-primary px-6 py-2 rounded mt-6" onclick="closeModal('modal-cookies')">Cerrar</button>
         </div>
     </div>
 
     <!-- Banner de Cookies (Primera Capa) -->
-    <div id="cookie-banner" class="fixed bottom-0 left-0 w-full bg-gray-900 text-white p-6 z-[2000] flex flex-col md:flex-row justify-between items-center text-sm">
-        <p class="mb-4 md:mb-0 md:mr-8">Utilizamos cookies propias y de terceros para mejorar su experiencia de navegación y mostrarle el mapa interactivo. Al continuar navegando entendemos que acepta nuestra <a href="javascript:void(0)" onclick="openModal('modal-cookies')" class="underline decoration-gold text-gold">política de cookies</a>.</p>
+    <div id="cookie-banner" class="fixed bottom-0 left-0 w-full bg-gray-900 text-white p-6 z-[2000] flex flex-col md:flex-row justify-between items-center text-sm shadow-2xl">
+        <p class="mb-4 md:mb-0 md:mr-8 max-w-4xl">Utilizamos cookies esenciales para mejorar su experiencia de navegación. Al continuar, acepta nuestra <a href="javascript:void(0)" onclick="openModal('modal-cookies')" class="underline decoration-gold text-gold">política de cookies</a>.</p>
         <div class="flex gap-4">
-            <button onclick="acceptCookies()" class="bg-white text-gray-900 px-6 py-2 font-bold rounded hover:bg-gold transition-colors">Aceptar todas</button>
-            <button onclick="acceptCookies()" class="bg-gray-700 text-white px-6 py-2 font-bold rounded hover:bg-gray-600 transition-colors">Configurar</button>
+            <button onclick="acceptCookies()" class="bg-white text-gray-900 px-8 py-2 font-bold rounded hover:bg-gold transition-colors">Aceptar</button>
         </div>
     </div>
 
     <script>
-        // Mobile Menu Toggle
+        // Toggle Menú Móvil
         const menuBtn = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
         
@@ -395,14 +366,14 @@
             mobileMenu.classList.toggle('hidden');
         });
 
-        // Close mobile menu on link click
+        // Cerrar menú móvil al hacer click en enlace
         document.querySelectorAll('#mobile-menu a').forEach(link => {
             link.addEventListener('click', () => {
                 mobileMenu.classList.add('hidden');
             });
         });
 
-        // Modal Functions
+        // Funciones Modales
         function openModal(id) {
             document.getElementById(id).style.display = "block";
             document.body.style.overflow = "hidden";
@@ -413,7 +384,7 @@
             document.body.style.overflow = "auto";
         }
 
-        // Close modal when clicking outside
+        // Cerrar modal al clickar fuera
         window.onclick = function(event) {
             if (event.target.className === 'modal') {
                 event.target.style.display = "none";
@@ -421,17 +392,17 @@
             }
         }
 
-        // Cookie Banner Logic
+        // Lógica Banner Cookies
         function acceptCookies() {
             document.getElementById('cookie-banner').style.opacity = '0';
             setTimeout(() => {
                 document.getElementById('cookie-banner').style.display = 'none';
             }, 500);
-            localStorage.setItem('cookiesAccepted_Kasan', 'true');
+            localStorage.setItem('cookies_kasan_7_v1', 'true');
         }
 
         window.onload = function() {
-            if (localStorage.getItem('cookiesAccepted_Kasan')) {
+            if (localStorage.getItem('cookies_kasan_7_v1')) {
                 document.getElementById('cookie-banner').style.display = 'none';
             }
         }
